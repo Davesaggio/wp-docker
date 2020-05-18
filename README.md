@@ -1,6 +1,6 @@
 
 
-# Entrare dentro la cartella proxy con il terminale
+# Entrare dentro la cartella proxy con il terminale: cd proxy
 
 Runnare comando:
     docker network create proxy
@@ -9,11 +9,11 @@ Runnare comando:
     docker-compose up -d
 ( Questo serve per avviare il container ngnix e poter fare i proxy )    
 
-# Poi entrare dentro la cartella principale del sito
+# Poi entrare dentro la cartella principale del sito: cd ..
     Runnare comando:
     docker-compose up -d
 
-( Partirà l’installazione di worpdress, creazione del db, configurazione del wp-config e collegamento del proxy )
+( Partirà l’installazione di WordPress, creazione del db, configurazione del wp-config e collegamento del proxy )
 
 Il file docker-compose dentro proxy non serve modificarlo.
 
