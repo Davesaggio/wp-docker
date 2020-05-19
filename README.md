@@ -25,7 +25,7 @@ docker-compose up -d
 mv phpmyadmin.php ./public
 ```
 
-Proxy and your wordpress website containers are now created, make sure they are both up, if everything went well you are ready to go!
+Proxy and your wordpress website containers are now created, make sure they are both up, if everything went well you should be ready to go!
 
 Your website is available at `my-website-name.local`, you can also access your db at `my-website-name.local/phpmyadmin.php`
 
